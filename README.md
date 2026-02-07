@@ -39,9 +39,9 @@ A modern, responsive news aggregator web application built with React and TypeSc
    ```
    Edit `.env` and add your API keys:
    ```
-   REACT_APP_NEWS_API_KEY=your_newsapi_key_here
-   REACT_APP_GUARDIAN_API_KEY=your_guardian_key_here
-   REACT_APP_NYTIMES_API_KEY=your_nytimes_key_here
+   REACT_APP_NEWS_API_KEY=fbfd8977de0544ae9afef72f33db4eed
+   REACT_APP_GUARDIAN_API_KEY=ac65600d-4c66-4cb7-9bab-d73b9667bace
+   REACT_APP_NYTIMES_API_KEY=lLjCEEiO6K2T6cAPbGNZqiwn1zhIa7jBn1LSMbf1qDqSRKPs
    ```
 
 3. **Build and run with Docker Compose**:
@@ -63,7 +63,12 @@ A modern, responsive news aggregator web application built with React and TypeSc
    ```bash
    cp .env.example .env
    ```
-   Edit `.env` and add your API keys.
+   Edit `.env` and add your API keys:
+   ```
+   REACT_APP_NEWS_API_KEY=fbfd8977de0544ae9afef72f33db4eed
+   REACT_APP_GUARDIAN_API_KEY=ac65600d-4c66-4cb7-9bab-d73b9667bace
+   REACT_APP_NYTIMES_API_KEY=lLjCEEiO6K2T6cAPbGNZqiwn1zhIa7jBn1LSMbf1qDqSRKPs
+   ```
 
 3. **Start the development server**:
    ```bash
